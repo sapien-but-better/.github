@@ -11,3 +11,7 @@ This is the main website application is built on a completely custom framework, 
 ## [API](https://github.com/sapien-but-better/api)
 
 This is the main API that preforms the direct interfacing with Sapien. This is essentially a browser based scrape engine designed with instance pooling to feed semantic data to the website application. Authentication should never be directly handled by the API, Instead the backend application should ensure correct authentication is sent for the user. This API will instead directly and blindly forward any provided authentication credentials to the Sapien page, allowing the page to return its own response.
+
+## [Wrapper](https://github.com/sapien-but-better/wrapper)
+
+The wrapper is a very simplistic asynchronous Python interface to the Sapien API. It is used for internal tools such as Network Management/Monitoring and the load balancing array. It will be subject to breaking changes without warning due to its nature of being an internal tool. If you decide to use the [API](https://github.com/sapien-but-better/api) in anyway, you should consider writing your own wrapper.
