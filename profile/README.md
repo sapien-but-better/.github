@@ -1,6 +1,6 @@
 # Sapien API Platform
 
-The SAP system originally started because I wanted to be able to add features to the BSFC Sapien system that it did not have. Most of these centred around the idea of having a sleek frontend powered by an efficient backend that is able to interact with a robust API. These are divided into two core repositories, the actual website application and the API.
+The SAP system originally started because I wanted to be able to add features to the Sapien system that it did not have. Most of these centred around the idea of having a sleek frontend powered by an efficient backend that is able to interact with a robust API. These are divided into two core repositories, the actual website application and the API.
 
 ⚠️ Please note that most of the core repositories, such as the API and Website Application, are currently private, and therefore are un-accessible unless you're apart of the Development team and logged in.
 
